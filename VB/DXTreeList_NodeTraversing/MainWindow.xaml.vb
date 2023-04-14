@@ -3,15 +3,12 @@ Imports DevExpress.Xpf.Grid
 
 Namespace DXTreeList_NodeTraversing
 
-    ''' <summary>
-    ''' Interaction logic for MainWindow.xaml
-    ''' </summary>
     Public Partial Class MainWindow
         Inherits Window
 
         Public Sub New()
             Me.InitializeComponent()
-            Me.treeListControl1.ItemsSource = GetStuff()
+            Me.treeListControl1.ItemsSource = GetStaff()
         End Sub
 
         Private Sub treeListControl1_Loaded(ByVal sender As Object, ByVal e As RoutedEventArgs)
