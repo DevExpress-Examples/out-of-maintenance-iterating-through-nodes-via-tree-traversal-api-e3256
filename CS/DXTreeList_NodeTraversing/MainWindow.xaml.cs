@@ -2,13 +2,10 @@
 using DevExpress.Xpf.Grid;
 
 namespace DXTreeList_NodeTraversing {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window {
         public MainWindow() {
             InitializeComponent();
-            treeListControl1.ItemsSource = Stuff.GetStuff();
+            treeListControl1.ItemsSource = Staff.GetStaff();
         }
 
         private void treeListControl1_Loaded(object sender, RoutedEventArgs e) {

@@ -1,10 +1,9 @@
 <Window x:Class="DXTreeList_NodeTraversing.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="MainWindow" Height="350" Width="525"
-        xmlns:sys="clr-namespace:System;assembly=mscorlib"
         xmlns:dxg="http://schemas.devexpress.com/winfx/2008/xaml/grid"
-        xmlns:dx="http://schemas.devexpress.com/winfx/2008/xaml/core">
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        Title="MainWindow" Height="350" Width="525">
     <Grid>
         <dxg:TreeListControl Name="treeListControl1" Loaded="treeListControl1_Loaded" >
             <dxg:TreeListControl.Columns>
